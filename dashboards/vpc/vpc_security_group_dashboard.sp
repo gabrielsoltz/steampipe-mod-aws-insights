@@ -12,6 +12,7 @@ dashboard "aws_vpc_security_group_dashboard" {
     card {
       sql = query.aws_vpc_security_group_count.sql
       width = 2
+      href = dashboard.aws_vpc_security_group_list.url_path
     }
 
     card {
